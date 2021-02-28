@@ -13,13 +13,13 @@ The cost of transporting a unit of commodity from each source to each destinatio
 We consider the problem of determining the quantities to be transported from sources to destinations, in order to minimize the total transportation cost. The supply and demand constraints must be satisfied. (We may assume that all the values are integer).
 
 Consider the following example.
-```
-        D1	    D2	    D3	    Supply
-S1      2	     3	      1	      10
-S2	5	     4	      8	      35
-S3	5	     6	      8	      25
-Demand	20	    25	    25	
-```
+|        | D1 | D2 | D3 | Supply |
+|--------|----|----|----|--------|
+| S1     | 2  | 3  | 1  | 10     |
+| S2     | 5  | 4  | 8  | 35     |
+| S3     | 5  | 6  | 8  | 25     |
+| Demand | 20 | 25 | 25 |        |
+
 A solution may be something like that:
 
 S1 -> D3: 10 units * cost 1 = 10
